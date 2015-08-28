@@ -1,0 +1,1664 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14A379a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="j3r-hk-zF2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="texgyreadventor-bold.otf">
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+            <string>TeXGyreAdventor-Bold</string>
+        </mutableArray>
+        <mutableArray key="texgyreadventor-italic.otf">
+            <string>TeXGyreAdventor-Italic</string>
+            <string>TeXGyreAdventor-Italic</string>
+        </mutableArray>
+        <mutableArray key="texgyreadventor-regular.otf">
+            <string>TeXGyreAdventor-Regular</string>
+            <string>TeXGyreAdventor-Regular</string>
+            <string>TeXGyreAdventor-Regular</string>
+            <string>TeXGyreAdventor-Regular</string>
+            <string>TeXGyreAdventor-Regular</string>
+            <string>TeXGyreAdventor-Regular</string>
+            <string>TeXGyreAdventor-Regular</string>
+            <string>TeXGyreAdventor-Regular</string>
+            <string>TeXGyreAdventor-Regular</string>
+            <string>TeXGyreAdventor-Regular</string>
+            <string>TeXGyreAdventor-Regular</string>
+            <string>TeXGyreAdventor-Regular</string>
+            <string>TeXGyreAdventor-Regular</string>
+            <string>TeXGyreAdventor-Regular</string>
+            <string>TeXGyreAdventor-Regular</string>
+            <string>TeXGyreAdventor-Regular</string>
+            <string>TeXGyreAdventor-Regular</string>
+            <string>TeXGyreAdventor-Regular</string>
+            <string>TeXGyreAdventor-Regular</string>
+            <string>TeXGyreAdventor-Regular</string>
+            <string>TeXGyreAdventor-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Menu Vc-->
+        <scene sceneID="seh-8I-Acb">
+            <objects>
+                <tableViewController restorationIdentifier="MenuVC" storyboardIdentifier="MenuVC" id="OaP-q1-b8O" customClass="MenuVc" customModule="Melody" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" bounces="NO" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="jlk-Q6-Yg8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.98039215690000003" green="0.50196078430000002" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <navigationBar key="tableHeaderView" contentMode="scaleToFill" id="Bhb-F7-Do5">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="barTintColor" red="1" green="0.56470588235294117" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <items>
+                                <navigationItem id="0bq-IK-gKN"/>
+                            </items>
+                        </navigationBar>
+                        <sections>
+                            <tableViewSection id="uBC-tb-rKz">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="50" id="K5Z-xX-wNV" customClass="MenuTVCell" customModule="Melody" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="99" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="K5Z-xX-wNV" id="rcS-RB-21B">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Actualités musicales" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="139" translatesAutoresizingMaskIntoConstraints="NO" id="Ujf-0L-eIi">
+                                                    <rect key="frame" x="70" y="14" width="139" height="22"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="14"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="actualites-off" translatesAutoresizingMaskIntoConstraints="NO" id="BSH-6y-hey">
+                                                    <rect key="frame" x="17" y="5" width="40" height="40"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.50196078430000002" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="Ujf-0L-eIi" id="8Ga-z5-9dm"/>
+                                            <outlet property="thumbImageView" destination="BSH-6y-hey" id="Agk-N4-VKR"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="50" id="7Yd-yG-m0W" customClass="MenuTVCell" customModule="Melody" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="99" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7Yd-yG-m0W" id="6Um-Vv-NXp">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Direct" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="129" translatesAutoresizingMaskIntoConstraints="NO" id="qaK-n4-8RJ">
+                                                    <rect key="frame" x="70" y="14" width="129" height="22"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="14"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="direct-off" translatesAutoresizingMaskIntoConstraints="NO" id="pae-KT-P0X">
+                                                    <rect key="frame" x="16" y="5" width="40" height="40"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.50196078430000002" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="qaK-n4-8RJ" id="Usd-ro-ciu"/>
+                                            <outlet property="thumbImageView" destination="pae-KT-P0X" id="Cic-ik-gwN"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="50" id="dpx-KI-oYU" customClass="MenuTVCell" customModule="Melody" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="99" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dpx-KI-oYU" id="zpf-Ru-wOR">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grille TV" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="129" translatesAutoresizingMaskIntoConstraints="NO" id="oH5-sl-3OZ">
+                                                    <rect key="frame" x="70" y="14" width="129" height="22"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="14"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grille-off" translatesAutoresizingMaskIntoConstraints="NO" id="YpZ-Xe-hVG">
+                                                    <rect key="frame" x="16" y="5" width="40" height="40"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.50196078430000002" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="oH5-sl-3OZ" id="qbS-ml-atA"/>
+                                            <outlet property="thumbImageView" destination="YpZ-Xe-hVG" id="aRh-3i-5f1"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="VOD" id="8Ig-jE-tgz">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="65" id="hSp-U0-4j0" customClass="MenuTVCell" customModule="Melody" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="99" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hSp-U0-4j0" id="lyY-Tk-Av8">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Variétés" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="129" translatesAutoresizingMaskIntoConstraints="NO" id="n72-zi-59p">
+                                                    <rect key="frame" x="70" y="21" width="129" height="22"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="14"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Ee-xU-hbB">
+                                                    <rect key="frame" x="16" y="12" width="40" height="40"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.50196078430000002" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="n72-zi-59p" id="yiB-aL-OSB"/>
+                                            <outlet property="thumbImageView" destination="9Ee-xU-hbB" id="H8S-HK-EW1"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="65" id="yAD-9b-AQm" customClass="MenuTVCell" customModule="Melody" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="99" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yAD-9b-AQm" id="9KB-tg-Au0">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Concerts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="129" translatesAutoresizingMaskIntoConstraints="NO" id="v57-AB-g64">
+                                                    <rect key="frame" x="70" y="21" width="129" height="22"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="14"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hdz-iU-69m">
+                                                    <rect key="frame" x="16" y="12" width="40" height="40"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.97647058823529409" green="0.56470588235294117" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="v57-AB-g64" id="Eqv-Ke-2la"/>
+                                            <outlet property="thumbImageView" destination="hdz-iU-69m" id="U4G-xV-GiQ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="65" id="Xrg-Op-jz7" customClass="MenuTVCell" customModule="Melody" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="99" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xrg-Op-jz7" id="Nyg-Hz-oJG">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Films" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="129" translatesAutoresizingMaskIntoConstraints="NO" id="3Fc-2Q-lyD">
+                                                    <rect key="frame" x="70" y="21" width="129" height="22"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="14"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ObG-JH-Ary">
+                                                    <rect key="frame" x="16" y="12" width="40" height="40"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.50196078430000002" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="3Fc-2Q-lyD" id="bxu-Ji-t9p"/>
+                                            <outlet property="thumbImageView" destination="ObG-JH-Ary" id="p1E-aw-9f8"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="65" id="W3N-Se-3T6" customClass="MenuTVCell" customModule="Melody" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="99" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="W3N-Se-3T6" id="keE-Bv-iJM">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Melody de star" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="129" translatesAutoresizingMaskIntoConstraints="NO" id="5I3-xn-oFk">
+                                                    <rect key="frame" x="70" y="21" width="129" height="22"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="14"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ccG-c7-I4r">
+                                                    <rect key="frame" x="16" y="12" width="40" height="40"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.50196078430000002" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="5I3-xn-oFk" id="ANc-zN-1n1"/>
+                                            <outlet property="thumbImageView" destination="ccG-c7-I4r" id="lNw-OO-lco"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="65" id="jW7-2A-pox" customClass="MenuTVCell" customModule="Melody" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="99" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jW7-2A-pox" id="mRE-E6-3wI">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Melody story" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="129" translatesAutoresizingMaskIntoConstraints="NO" id="Yls-Kx-g8c">
+                                                    <rect key="frame" x="70" y="21" width="129" height="22"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="14"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Xg-sM-ljB">
+                                                    <rect key="frame" x="16" y="12" width="40" height="40"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.50196078430000002" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="Yls-Kx-g8c" id="LRF-2L-KaK"/>
+                                            <outlet property="thumbImageView" destination="7Xg-sM-ljB" id="l7D-Me-e8G"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="TeW-YE-FFN">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="65" id="722-uC-4lf" customClass="MenuTVCell" customModule="Melody" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="99" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="722-uC-4lf" id="CNE-BV-PdS">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Replay" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="129" translatesAutoresizingMaskIntoConstraints="NO" id="5aA-zB-OoF">
+                                                    <rect key="frame" x="70" y="21" width="129" height="22"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="14"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="replay-of" translatesAutoresizingMaskIntoConstraints="NO" id="NZg-kE-hcm">
+                                                    <rect key="frame" x="16" y="12" width="40" height="40"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.50196078430000002" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="5aA-zB-OoF" id="W2o-ER-2jB"/>
+                                            <outlet property="thumbImageView" destination="NZg-kE-hcm" id="xpD-4v-uSr"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="65" id="cIF-nR-t5c" customClass="MenuTVCell" customModule="Melody" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="99" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cIF-nR-t5c" id="B2M-Uh-kih">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Compte" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Il8-5f-zEV">
+                                                    <rect key="frame" x="70" y="21" width="129" height="22"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="14"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="compte-off" translatesAutoresizingMaskIntoConstraints="NO" id="7Z7-cr-8MT">
+                                                    <rect key="frame" x="16" y="12" width="40" height="40"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.50196078430000002" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="Il8-5f-zEV" id="2M0-HW-fKg"/>
+                                            <outlet property="thumbImageView" destination="7Z7-cr-8MT" id="zKb-71-OAv"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="OaP-q1-b8O" id="VRN-SD-mVB"/>
+                            <outlet property="delegate" destination="OaP-q1-b8O" id="Lfj-3m-Qll"/>
+                        </connections>
+                    </tableView>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="accountImageView" destination="7Z7-cr-8MT" id="QWQ-Of-OFF"/>
+                        <outlet property="accountLabel" destination="Il8-5f-zEV" id="y10-co-qZv"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N2I-po-s3i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="272" y="-382"/>
+        </scene>
+        <!--La chaîne Melody en direct-->
+        <scene sceneID="QMH-t7-nTs">
+            <objects>
+                <viewController storyboardIdentifier="DirectVC" id="6Vl-Ea-5ST" customClass="DirectVC" customModule="Melody" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n8t-oq-hqa"/>
+                        <viewControllerLayoutGuide type="bottom" id="3Rg-W3-uM8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YOL-W3-AG8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1erEssaiGratuit" translatesAutoresizingMaskIntoConstraints="NO" id="ykg-sU-LPO">
+                                <rect key="frame" x="60" y="472" width="193" height="40"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vous regardez la chaîne Melody en direct." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qgs-0o-Qm7">
+                                <rect key="frame" x="-1" y="406" width="308" height="22"/>
+                                <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFM-1j-Ibn">
+                                <rect key="frame" x="79" y="520" width="160" height="40"/>
+                                <state key="normal" title="Button" image="abo-btn-compte-abo">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="aboAction:" destination="6Vl-Ea-5ST" eventType="touchUpInside" id="0Uc-Gt-gzh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jxm-2y-now">
+                                <rect key="frame" x="60" y="445" width="200" height="30"/>
+                                <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="14"/>
+                                <state key="normal" title="Voir en plein écran">
+                                    <color key="titleColor" red="1" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playInFullScreenAction:" destination="6Vl-Ea-5ST" eventType="touchUpInside" id="A6a-pl-Ltw"/>
+                                </connections>
+                            </button>
+                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PeG-Wo-Qyn">
+                                <rect key="frame" x="9" y="309" width="300" height="160"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">La vidéo proposée ci-dessus est la bande-annonce du mois. Pour voir le direct de la chaine Melody vous devez être abonné(e); Vous accéderez en plus, en illimité,  tous nos programmes disponibles à la demande.</string>
+                                <color key="textColor" red="0.98039215690000003" green="0.50196078430000002" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M2w-pT-G3g">
+                                <rect key="frame" x="-1" y="64" width="320" height="224"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="La chaîne Melody en direct" id="1Gr-P9-1TY"/>
+                    <connections>
+                        <outlet property="aboButton" destination="XFM-1j-Ibn" id="oWh-Oc-KyM"/>
+                        <outlet property="aboDirectLabel" destination="qgs-0o-Qm7" id="QEA-7a-LD1"/>
+                        <outlet property="descriptionTextView" destination="PeG-Wo-Qyn" id="okw-o9-BaI"/>
+                        <outlet property="freeMonthImage" destination="ykg-sU-LPO" id="2wD-xU-LUb"/>
+                        <outlet property="fullScreenButton" destination="jxm-2y-now" id="ug7-HF-6Yw"/>
+                        <outlet property="playerView" destination="M2w-pT-G3g" id="tcG-we-gTO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8ja-Kl-S7P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="988" y="343"/>
+        </scene>
+        <!--actualites-->
+        <scene sceneID="dLd-sq-how">
+            <objects>
+                <tableViewController storyboardIdentifier="ActuVC" title="actualites" id="f3L-jo-K3E" customClass="TemplateIphoneTVC" customModule="Melody" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="99" sectionHeaderHeight="22" sectionFooterHeight="22" id="Z30-vR-lEa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="99" id="VPG-MJ-teW" customClass="ActuTVCell" customModule="Melody" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VPG-MJ-teW" id="NId-Hc-x3S">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mYo-4C-C9a">
+                                            <rect key="frame" x="8" y="17" width="114" height="65"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="158" translatesAutoresizingMaskIntoConstraints="NO" id="7qt-Sl-8jd">
+                                            <rect key="frame" x="136" y="8" width="158" height="21"/>
+                                            <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="12"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="titre s s" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="158" translatesAutoresizingMaskIntoConstraints="NO" id="ENR-dw-r9z">
+                                            <rect key="frame" x="136" y="24" width="158" height="58"/>
+                                            <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="12"/>
+                                            <color key="textColor" red="0.98431372549999996" green="0.52549019610000003" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="diffusionDateLabel" destination="7qt-Sl-8jd" id="rV6-gy-noc"/>
+                                    <outlet property="thumbImage" destination="mYo-4C-C9a" id="LQj-iq-Z28"/>
+                                    <outlet property="titleLabel" destination="ENR-dw-r9z" id="YIu-lp-nkb"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="f3L-jo-K3E" id="G1U-Zy-Pfn"/>
+                            <outlet property="delegate" destination="f3L-jo-K3E" id="fHC-ro-x5c"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Actualités musicales" id="rXR-vJ-RbE"/>
+                    <connections>
+                        <segue destination="kf7-xD-oEl" kind="push" identifier="actuViewX" id="4lw-Pd-qFx"/>
+                        <segue destination="mQV-Br-Kca" kind="modal" identifier="goToTuto" id="GVy-7h-Cn6"/>
+                        <segue destination="cHW-t7-cqL" kind="push" identifier="actuView" id="45u-Tm-gff"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wMJ-qO-a8B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940" y="-360"/>
+        </scene>
+        <!--ActuVC-->
+        <scene sceneID="F9w-Ux-W2P">
+            <objects>
+                <viewController id="kf7-xD-oEl" customClass="ActuVC" customModule="Melody" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Be3-3d-NxO"/>
+                        <viewControllerLayoutGuide type="bottom" id="vTP-fM-Q7W"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1TX-h6-W3K">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" mediaPlaybackRequiresUserAction="NO" mediaPlaybackAllowsAirPlay="NO" keyboardDisplayRequiresUserAction="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gbk-8z-iz7">
+                                <rect key="frame" x="9" y="323" width="301" height="500"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="kf7-xD-oEl" id="0yc-hY-gSB"/>
+                                </connections>
+                            </webView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image=" " translatesAutoresizingMaskIntoConstraints="NO" id="FfN-o8-45w">
+                                <rect key="frame" x="54" y="152" width="210" height="130"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Melody Mag l l" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="278" translatesAutoresizingMaskIntoConstraints="NO" id="3b6-5J-jwp">
+                                <rect key="frame" x="20" y="57" width="278" height="79"/>
+                                <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="12"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.52549019610000003" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aujourd'hui à 9h45  - 1h50 min" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Qck-aJ-2NY">
+                                <rect key="frame" x="19" y="290" width="280" height="21"/>
+                                <fontDescription key="fontDescription" name="TeXGyreAdventor-Italic" family="TeX Gyre Adventor" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="301" translatesAutoresizingMaskIntoConstraints="NO" id="CdO-mu-Tvh">
+                                <rect key="frame" x="9" y="126" width="301" height="21"/>
+                                <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="93t-2e-1Ea"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="copyrightLabel" destination="Qck-aJ-2NY" id="OZq-Va-aZA"/>
+                        <outlet property="descriptionWebView" destination="Gbk-8z-iz7" id="VWJ-iH-Vg5"/>
+                        <outlet property="diffusionDateLabel" destination="CdO-mu-Tvh" id="PXP-pO-pz9"/>
+                        <outlet property="thumbImage" destination="FfN-o8-45w" id="DX4-h2-YH0"/>
+                        <outlet property="titleActuLabel" destination="3b6-5J-jwp" id="sHV-R2-nPB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iSr-8t-4BP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1667" y="61"/>
+        </scene>
+        <!--ActuTVC-->
+        <scene sceneID="OcQ-vz-5iy">
+            <objects>
+                <tableViewController id="cHW-t7-cqL" customClass="ActuTVC" customModule="Melody" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="258" sectionHeaderHeight="22" sectionFooterHeight="22" id="DKI-5v-yk5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="jio-Ov-JWK">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="260" id="IjJ-ZR-LOk">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IjJ-ZR-LOk" id="Is6-l2-1zb">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image=" " translatesAutoresizingMaskIntoConstraints="NO" id="zWR-eT-wq7">
+                                                    <rect key="frame" x="53" y="85" width="210" height="130"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Melody Mag l l" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="278" translatesAutoresizingMaskIntoConstraints="NO" id="YB0-eq-kb5">
+                                                    <rect key="frame" x="19" y="-10" width="278" height="79"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="12"/>
+                                                    <color key="textColor" red="0.98431372549999996" green="0.52549019610000003" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aujourd'hui à 9h45  - 1h50 min" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Kor-BV-IO2">
+                                                    <rect key="frame" x="18" y="223" width="280" height="21"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Italic" family="TeX Gyre Adventor" pointSize="12"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="301" translatesAutoresizingMaskIntoConstraints="NO" id="5VL-mh-tw7">
+                                                    <rect key="frame" x="8" y="59" width="301" height="21"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="14"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="258" id="5qd-Sf-H7V">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5qd-Sf-H7V" id="LBz-wP-J15">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <webView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" allowsInlineMediaPlayback="NO" mediaPlaybackRequiresUserAction="NO" mediaPlaybackAllowsAirPlay="NO" keyboardDisplayRequiresUserAction="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1r-cL-uwv">
+                                                    <rect key="frame" x="10" y="15" width="301" height="200"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <dataDetectorType key="dataDetectorTypes"/>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="cHW-t7-cqL" id="REx-m4-6E9"/>
+                                                    </connections>
+                                                </webView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="cHW-t7-cqL" id="P5E-cL-yTL"/>
+                            <outlet property="delegate" destination="cHW-t7-cqL" id="bX8-05-q7v"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="5gC-LB-AqQ"/>
+                    <connections>
+                        <outlet property="copyrightLabel" destination="Kor-BV-IO2" id="Lr8-Qt-V19"/>
+                        <outlet property="descriptionWebView" destination="z1r-cL-uwv" id="xzf-em-h0Y"/>
+                        <outlet property="diffusionDateLabel" destination="5VL-mh-tw7" id="G1V-VU-QMZ"/>
+                        <outlet property="thumbImage" destination="zWR-eT-wq7" id="Gcp-VQ-plV"/>
+                        <outlet property="titleActuLabel" destination="YB0-eq-kb5" id="bof-dK-Gxg"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8GI-ch-Ves" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1667" y="-564"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Iwb-yl-7M4">
+            <objects>
+                <viewController storyboardIdentifier="noInternet" id="Ofc-mU-VIK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="U8r-f2-6j7"/>
+                        <viewControllerLayoutGuide type="bottom" id="022-3r-rs8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oYk-zx-cUz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Melody" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="512" translatesAutoresizingMaskIntoConstraints="NO" id="Apq-fD-vC8">
+                                <rect key="frame" x="-96" y="48" width="512" height="71"/>
+                                <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="SC5-CI-Air">
+                                <rect key="frame" x="35" y="184" width="250" height="200"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Désolé, un problème de connexion a été détecté. Veuillez vérifier que votre connexion 3G/4G ou Wi-Fi est suffisante. Nous vous recommandons de vous connecter en Wi-Fi afin de profiter pleinement du service.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98039215690000003" green="0.50196078430000002" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nsq-3S-MK2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2281" y="216"/>
+        </scene>
+        <!--Grille TV-->
+        <scene sceneID="b9k-wO-x1B">
+            <objects>
+                <viewController storyboardIdentifier="GrilleTvVC" automaticallyAdjustsScrollViewInsets="NO" id="FjU-VR-hnb" customClass="GrilleTvVC" customModule="Melody" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RVT-ph-NIr"/>
+                        <viewControllerLayoutGuide type="bottom" id="VYz-qh-fGT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8sl-H4-cyN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="X0K-mI-tUY">
+                                <rect key="frame" x="0.0" y="64" width="640" height="55"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="Osx-cF-nWS">
+                                    <size key="itemSize" width="170" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Day" id="MBM-P2-cY1" customClass="GrilleCVC" customModule="Melody" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="170" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sep-grilleTV" translatesAutoresizingMaskIntoConstraints="NO" id="NBb-mh-xmS">
+                                                    <rect key="frame" x="162" y="0.0" width="1" height="50"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aujourd'hui" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="150" translatesAutoresizingMaskIntoConstraints="NO" id="5LZ-OC-3Kn">
+                                                    <rect key="frame" x="0.0" y="14" width="150" height="21"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="15"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <outlet property="dayLabel" destination="5LZ-OC-3Kn" id="qRD-j9-k9H"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="FjU-VR-hnb" id="QF2-ff-emy"/>
+                                    <outlet property="delegate" destination="FjU-VR-hnb" id="sgt-ud-0Ey"/>
+                                </connections>
+                            </collectionView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="37M-3T-epz">
+                                <rect key="frame" x="0.0" y="119" width="320" height="451"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="programmeCell" rowHeight="100" id="PuY-We-5sS" customClass="ProgrammeTVCell" customModule="Melody" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="78" width="1024" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PuY-We-5sS" id="mKk-RP-XxD">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MELODY 90" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="811" translatesAutoresizingMaskIntoConstraints="NO" id="O5U-X1-dGv">
+                                                    <rect key="frame" x="8" y="17" width="811" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="306" translatesAutoresizingMaskIntoConstraints="NO" id="ZW7-sf-v2X">
+                                                    <rect key="frame" x="8" y="42" width="306" height="51"/>
+                                                    <string key="text">BOUTON ROUGE - OTIS REDDING
+w</string>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                                    <color key="textColor" red="0.98039215690000003" green="0.4823529412" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10h15" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VrR-q6-HmC">
+                                                    <rect key="frame" x="243" y="17" width="117" height="21"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.97733470320000004" green="1" blue="0.9862907541" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="genderEmissionLabel" destination="O5U-X1-dGv" id="pnr-ZU-qed"/>
+                                            <outlet property="hourLabel" destination="VrR-q6-HmC" id="A7K-oj-zmr"/>
+                                            <outlet property="titleEmissionLabel" destination="ZW7-sf-v2X" id="m8J-5a-azr"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="FjU-VR-hnb" id="vod-q2-2P9"/>
+                                    <outlet property="delegate" destination="FjU-VR-hnb" id="tgq-fu-U8Q"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Grille TV" id="Psk-ox-CcQ"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="dayCollectionView" destination="X0K-mI-tUY" id="fSl-Px-cNT"/>
+                        <outlet property="programmeTableView" destination="37M-3T-epz" id="Zkb-IJ-K1d"/>
+                        <segue destination="qsA-tW-Pa7" kind="push" identifier="videoView" id="FcC-J7-U1v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RE8-HB-p7b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="804" y="1065"/>
+        </scene>
+        <!--VideoTVC-->
+        <scene sceneID="8Un-fP-Kz8">
+            <objects>
+                <tableViewController storyboardIdentifier="VideoTVC" id="qsA-tW-Pa7" customClass="VideoTVC" customModule="Melody" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="305" sectionHeaderHeight="22" sectionFooterHeight="22" id="kIk-gi-U36">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.78039215689999997" green="0.79607843140000001" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <sections>
+                            <tableViewSection id="NY8-6q-FyS">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="274" id="cNI-Dw-ELe">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cNI-Dw-ELe" id="j3q-LC-sMe">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pjd-Xd-iKq">
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <string key="text">1925 sur la Deux. L'émission nous fait revivre l'époque 1925. Différents décors. Présence du chanteur américain John DUMMER qui s'accompagne au piano et interprète deux chansons en anglais. </string>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="12"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Artistes : " selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PkA-MI-F89">
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Melody Mag s" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="E8r-x0-mXH">
+                                                    <rect key="frame" x="19" y="8" width="280" height="52"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="13"/>
+                                                    <color key="textColor" red="0.98431372549999996" green="0.52549019610000003" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image=" " translatesAutoresizingMaskIntoConstraints="NO" id="2ce-y7-1VZ">
+                                                    <rect key="frame" x="89" y="68" width="140" height="105"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1erEssaiGratuit" translatesAutoresizingMaskIntoConstraints="NO" id="Iud-eV-6qf">
+                                                    <rect key="frame" x="68" y="175" width="184" height="41"/>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QEF-JM-SXI">
+                                                    <rect key="frame" x="48" y="236" width="100" height="30"/>
+                                                    <state key="normal" image="btn_extrait-1">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="playTeaserAction:" destination="qsA-tW-Pa7" eventType="touchUpInside" id="64B-Er-Okd"/>
+                                                    </connections>
+                                                </button>
+                                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evt-lp-nCm">
+                                                    <rect key="frame" x="110" y="224" width="100" height="30"/>
+                                                    <state key="normal" image="btn_voir_video">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="playTeaserAction:" destination="qsA-tW-Pa7" eventType="touchUpInside" id="CfJ-CU-CpI"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UnF-bS-qzu">
+                                                    <rect key="frame" x="172" y="236" width="100" height="30"/>
+                                                    <state key="normal" image="btn_abonner-1">
+                                                        <color key="titleColor" red="0.91764712329999998" green="0.0" blue="0.094117656349999995" alpha="1" colorSpace="deviceRGB"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="aboAction:" destination="qsA-tW-Pa7" eventType="touchUpInside" id="0oc-Dc-WgV"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="210" translatesAutoresizingMaskIntoConstraints="NO" id="Upy-Yw-9bj">
+                                                    <rect key="frame" x="55" y="186" width="210" height="62"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="13"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Informations" id="g6V-FD-BMM">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="231" id="HFG-h5-mmV">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HFG-h5-mmV" id="48d-vf-8sp">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Description : " selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zT0-7d-m7b">
+                                                    <rect key="frame" x="15" y="47" width="290" height="70"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="13"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1ère diffusion :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="95" translatesAutoresizingMaskIntoConstraints="NO" id="0of-8L-he3">
+                                                    <rect key="frame" x="21" y="18" width="95" height="21"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="13"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Le 8 janvier 1980" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="131" translatesAutoresizingMaskIntoConstraints="NO" id="hC4-nA-6jL">
+                                                    <rect key="frame" x="124" y="18" width="131" height="21"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="13"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Artistes : " selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="04n-dH-0b9">
+                                                    <rect key="frame" x="15" y="125" width="290" height="80"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="13"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="À la une cette semaine" id="czA-So-4ZF">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="157" id="alB-yA-Pia">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="alB-yA-Pia" id="ExN-E4-mKT">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image=" " translatesAutoresizingMaskIntoConstraints="NO" id="Pr2-1x-e53">
+                                                    <rect key="frame" x="97" y="13" width="140" height="105"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Video 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="222" translatesAutoresizingMaskIntoConstraints="NO" id="CoA-S2-7HM">
+                                                    <rect key="frame" x="56" y="126" width="222" height="24"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="14"/>
+                                                    <color key="textColor" red="0.98431372549999996" green="0.52549019610000003" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="157" id="lDP-rn-T98">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lDP-rn-T98" id="80l-ht-nUQ">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image=" " translatesAutoresizingMaskIntoConstraints="NO" id="HPb-87-Hgf">
+                                                    <rect key="frame" x="90" y="18" width="140" height="105"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Video 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Rd-fD-Kw1">
+                                                    <rect key="frame" x="45" y="131" width="230" height="24"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="14"/>
+                                                    <color key="textColor" red="0.98431372549999996" green="0.52549019610000003" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="157" id="IL4-cF-ddS">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IL4-cF-ddS" id="rVw-VT-feE">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image=" " translatesAutoresizingMaskIntoConstraints="NO" id="KJX-Kl-Sdz">
+                                                    <rect key="frame" x="90" y="18" width="140" height="105"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Video 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0G-R9-wud">
+                                                    <rect key="frame" x="55" y="125" width="210" height="24"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="14"/>
+                                                    <color key="textColor" red="0.98431372549999996" green="0.52549019610000003" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="157" id="xk5-Ja-G07">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xk5-Ja-G07" id="HOn-MF-XbR">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Video 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGE-a6-kwa">
+                                                    <rect key="frame" x="57" y="120" width="220" height="24"/>
+                                                    <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="14"/>
+                                                    <color key="textColor" red="0.98431372549999996" green="0.52549019610000003" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image=" " translatesAutoresizingMaskIntoConstraints="NO" id="nOd-DL-lR6">
+                                                    <rect key="frame" x="90" y="8" width="140" height="105"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="qsA-tW-Pa7" id="7T1-pv-aWD"/>
+                            <outlet property="delegate" destination="qsA-tW-Pa7" id="5Vg-US-G2C"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="tff-vZ-g8Y">
+                        <barButtonItem key="backBarButtonItem" title="Retour" id="whV-Kb-fwR"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="aboButton" destination="UnF-bS-qzu" id="Vcg-Un-Z2T"/>
+                        <outlet property="artistsTextView" destination="04n-dH-0b9" id="wdb-2c-SdF"/>
+                        <outlet property="descriptionTextView" destination="zT0-7d-m7b" id="vo9-Re-h7O"/>
+                        <outlet property="firstTryPicto" destination="Iud-eV-6qf" id="gqm-1U-C0M"/>
+                        <outlet property="playFullVideoButton" destination="evt-lp-nCm" id="w3f-BA-vQ1"/>
+                        <outlet property="playTeaserVideoButton" destination="QEF-JM-SXI" id="Clv-cs-a7O"/>
+                        <outlet property="producedFixLabel" destination="0of-8L-he3" id="Wsi-l8-2wv"/>
+                        <outlet property="producedLabel" destination="hC4-nA-6jL" id="g15-XN-9kC"/>
+                        <outlet property="publicationMobileLabel" destination="Upy-Yw-9bj" id="Z0N-hc-Zn9"/>
+                        <outlet property="thumbEmissionImage" destination="2ce-y7-1VZ" id="FhG-vV-3Wg"/>
+                        <outlet property="thumb_imageEmission1" destination="Pr2-1x-e53" id="shU-wd-ofr"/>
+                        <outlet property="thumb_imageEmission2" destination="HPb-87-Hgf" id="9ed-4H-Wcm"/>
+                        <outlet property="thumb_imageEmission3" destination="KJX-Kl-Sdz" id="hHm-ab-uFX"/>
+                        <outlet property="thumb_imageEmission4" destination="nOd-DL-lR6" id="bcB-4G-Jul"/>
+                        <outlet property="titleEmissionLabel" destination="E8r-x0-mXH" id="Np2-qu-QeS"/>
+                        <outlet property="titleEmissionLabel1" destination="CoA-S2-7HM" id="eBm-7n-j3j"/>
+                        <outlet property="titleEmissionLabel2" destination="5Rd-fD-Kw1" id="jVO-zs-cVe"/>
+                        <outlet property="titleEmissionLabel3" destination="d0G-R9-wud" id="nne-5U-S11"/>
+                        <outlet property="titleEmissionLabel4" destination="IGE-a6-kwa" id="k3r-Ww-ihR"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RJW-ts-YxZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1615" y="1065"/>
+        </scene>
+        <!--varietes-->
+        <scene sceneID="bVW-mn-cmm">
+            <objects>
+                <tableViewController storyboardIdentifier="VarieteVC" title="varietes" id="758-ac-xnc" customClass="TemplateIphoneTVC" customModule="Melody" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="99" sectionHeaderHeight="22" sectionFooterHeight="22" id="7oJ-n0-QdV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="99" id="jX2-Xd-hdk" customClass="ActuTVCell" customModule="Melody" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jX2-Xd-hdk" id="gJk-72-1o1">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0sg-OV-gEi">
+                                            <rect key="frame" x="8" y="17" width="114" height="65"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="158" translatesAutoresizingMaskIntoConstraints="NO" id="XCf-7f-HhU">
+                                            <rect key="frame" x="136" y="8" width="158" height="21"/>
+                                            <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="12"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="titre s s" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="158" translatesAutoresizingMaskIntoConstraints="NO" id="NMf-Q8-3Uv">
+                                            <rect key="frame" x="136" y="24" width="158" height="58"/>
+                                            <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="12"/>
+                                            <color key="textColor" red="0.98431372549999996" green="0.52549019610000003" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="diffusionDateLabel" destination="XCf-7f-HhU" id="4jM-kD-kUQ"/>
+                                    <outlet property="thumbImage" destination="0sg-OV-gEi" id="EKW-yW-A72"/>
+                                    <outlet property="titleLabel" destination="NMf-Q8-3Uv" id="kSc-zA-fV2"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="758-ac-xnc" id="1yB-sf-arj"/>
+                            <outlet property="delegate" destination="758-ac-xnc" id="Nu4-Tb-B51"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Variétés" id="Fl9-iP-I3g"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xen-MR-FX8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="935" y="1780"/>
+        </scene>
+        <!--concerts-->
+        <scene sceneID="UGR-Ls-AVe">
+            <objects>
+                <tableViewController storyboardIdentifier="ConcertVC" title="concerts" id="5F4-kS-dhB" customClass="TemplateIphoneTVC" customModule="Melody" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="99" sectionHeaderHeight="22" sectionFooterHeight="22" id="Mix-4r-Fhm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="99" id="zjF-b8-I31" customClass="ActuTVCell" customModule="Melody" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zjF-b8-I31" id="h5Q-bv-0mD">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LZG-3G-9KR">
+                                            <rect key="frame" x="8" y="17" width="114" height="65"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="158" translatesAutoresizingMaskIntoConstraints="NO" id="dxj-m8-H5Y">
+                                            <rect key="frame" x="136" y="8" width="158" height="21"/>
+                                            <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="12"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="titre s s" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="158" translatesAutoresizingMaskIntoConstraints="NO" id="d3A-3M-fU6">
+                                            <rect key="frame" x="136" y="24" width="158" height="58"/>
+                                            <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="12"/>
+                                            <color key="textColor" red="0.98431372549999996" green="0.52549019610000003" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="diffusionDateLabel" destination="dxj-m8-H5Y" id="W5A-71-OKf"/>
+                                    <outlet property="thumbImage" destination="LZG-3G-9KR" id="pH0-tS-bVY"/>
+                                    <outlet property="titleLabel" destination="d3A-3M-fU6" id="uYk-L3-vjo"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="5F4-kS-dhB" id="hIA-gm-hrF"/>
+                            <outlet property="delegate" destination="5F4-kS-dhB" id="ujl-rh-PQo"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Concerts" id="07r-ca-7CO"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YhH-J2-s9T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="935" y="2440"/>
+        </scene>
+        <!--films-->
+        <scene sceneID="hsL-0b-nPk">
+            <objects>
+                <tableViewController storyboardIdentifier="FilmVC" title="films" id="Msn-HY-Mhm" customClass="TemplateIphoneTVC" customModule="Melody" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="99" sectionHeaderHeight="22" sectionFooterHeight="22" id="0aO-hP-MWv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="99" id="7PC-U2-JgI" customClass="ActuTVCell" customModule="Melody" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7PC-U2-JgI" id="jki-lM-YE2">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aXI-Qs-dTK">
+                                            <rect key="frame" x="8" y="17" width="114" height="65"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="158" translatesAutoresizingMaskIntoConstraints="NO" id="fCe-91-DIK">
+                                            <rect key="frame" x="136" y="8" width="158" height="21"/>
+                                            <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="12"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="titre s s" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="158" translatesAutoresizingMaskIntoConstraints="NO" id="6y2-uJ-DfG">
+                                            <rect key="frame" x="136" y="24" width="158" height="58"/>
+                                            <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="12"/>
+                                            <color key="textColor" red="0.98431372549999996" green="0.52549019610000003" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="diffusionDateLabel" destination="fCe-91-DIK" id="3lt-yb-e9l"/>
+                                    <outlet property="thumbImage" destination="aXI-Qs-dTK" id="kZP-EP-u7l"/>
+                                    <outlet property="titleLabel" destination="6y2-uJ-DfG" id="FpL-Fw-uYN"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Msn-HY-Mhm" id="kkt-Of-P5U"/>
+                            <outlet property="delegate" destination="Msn-HY-Mhm" id="bek-lm-gcC"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Films " id="pJZ-vn-OQU"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KD1-Vg-lEN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940" y="3136"/>
+        </scene>
+        <!--stars-->
+        <scene sceneID="8I0-QG-BeM">
+            <objects>
+                <tableViewController storyboardIdentifier="StarVC" title="stars" id="dke-cB-0q0" customClass="TemplateIphoneTVC" customModule="Melody" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="99" sectionHeaderHeight="22" sectionFooterHeight="22" id="9VJ-5H-d66">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="99" id="s1v-go-raR" customClass="ActuTVCell" customModule="Melody" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="s1v-go-raR" id="09o-bg-e2f">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jyd-in-Qxs">
+                                            <rect key="frame" x="8" y="17" width="114" height="65"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="158" translatesAutoresizingMaskIntoConstraints="NO" id="Btg-PT-esE">
+                                            <rect key="frame" x="136" y="8" width="158" height="21"/>
+                                            <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="12"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="titre s s" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="158" translatesAutoresizingMaskIntoConstraints="NO" id="BV6-L8-j75">
+                                            <rect key="frame" x="136" y="24" width="158" height="58"/>
+                                            <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="12"/>
+                                            <color key="textColor" red="0.98431372549999996" green="0.52549019610000003" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="diffusionDateLabel" destination="Btg-PT-esE" id="hbi-EN-9Oc"/>
+                                    <outlet property="thumbImage" destination="Jyd-in-Qxs" id="7R0-go-z0O"/>
+                                    <outlet property="titleLabel" destination="BV6-L8-j75" id="5xa-Hb-Rhw"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="dke-cB-0q0" id="2cL-S4-pHQ"/>
+                            <outlet property="delegate" destination="dke-cB-0q0" id="Tci-12-tqf"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Melody de star" id="PSY-LJ-wzy"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5wx-dF-8DH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940" y="3824"/>
+        </scene>
+        <!--storys-->
+        <scene sceneID="49V-ci-SKz">
+            <objects>
+                <tableViewController storyboardIdentifier="StoryVC" title="storys" id="Ndx-yY-SQ2" customClass="TemplateIphoneTVC" customModule="Melody" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="99" sectionHeaderHeight="22" sectionFooterHeight="22" id="HVx-hq-oxl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="99" id="sSi-dE-Ss4" customClass="ActuTVCell" customModule="Melody" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sSi-dE-Ss4" id="U2A-9d-e0A">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E64-Qs-Iq3">
+                                            <rect key="frame" x="8" y="17" width="114" height="65"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="158" translatesAutoresizingMaskIntoConstraints="NO" id="T00-6T-eBL">
+                                            <rect key="frame" x="136" y="8" width="158" height="21"/>
+                                            <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="12"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="titre s s" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="158" translatesAutoresizingMaskIntoConstraints="NO" id="Y6E-c4-Qej">
+                                            <rect key="frame" x="136" y="24" width="158" height="58"/>
+                                            <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="12"/>
+                                            <color key="textColor" red="0.98431372549999996" green="0.52549019610000003" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="diffusionDateLabel" destination="T00-6T-eBL" id="dfD-X8-qCO"/>
+                                    <outlet property="thumbImage" destination="E64-Qs-Iq3" id="Za8-Ln-gWi"/>
+                                    <outlet property="titleLabel" destination="Y6E-c4-Qej" id="qcn-56-5HO"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Ndx-yY-SQ2" id="HKg-TA-7mf"/>
+                            <outlet property="delegate" destination="Ndx-yY-SQ2" id="mO5-zq-pee"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Melody  story" id="h72-6c-dSM"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="COk-oY-3m6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="960" y="4507"/>
+        </scene>
+        <!--replays-->
+        <scene sceneID="Ki9-sT-dTB">
+            <objects>
+                <tableViewController storyboardIdentifier="ReplayVC" title="replays" id="eXQ-bL-SxD" customClass="TemplateIphoneTVC" customModule="Melody" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="99" sectionHeaderHeight="22" sectionFooterHeight="22" id="a7R-AB-KLg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="99" id="T42-Ny-Feq" customClass="ActuTVCell" customModule="Melody" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="T42-Ny-Feq" id="HeS-Ga-vsT">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yeo-em-2qG">
+                                            <rect key="frame" x="8" y="17" width="114" height="65"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="158" translatesAutoresizingMaskIntoConstraints="NO" id="PCN-KW-LF1">
+                                            <rect key="frame" x="136" y="8" width="158" height="21"/>
+                                            <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="12"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="titre s s" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="158" translatesAutoresizingMaskIntoConstraints="NO" id="uaN-zF-Bz4">
+                                            <rect key="frame" x="136" y="24" width="158" height="58"/>
+                                            <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="12"/>
+                                            <color key="textColor" red="0.98431372549999996" green="0.52549019610000003" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="diffusionDateLabel" destination="PCN-KW-LF1" id="Ij2-1S-vq6"/>
+                                    <outlet property="thumbImage" destination="yeo-em-2qG" id="Q6T-SE-wny"/>
+                                    <outlet property="titleLabel" destination="uaN-zF-Bz4" id="Qj6-z1-6DZ"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="eXQ-bL-SxD" id="evi-cr-ILN"/>
+                            <outlet property="delegate" destination="eXQ-bL-SxD" id="kOZ-ss-IXk"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Replay" id="wWI-Aw-ZoU"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ETW-ZL-9Zy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="5219"/>
+        </scene>
+        <!--LoginVC-->
+        <scene sceneID="SDa-j6-egw">
+            <objects>
+                <viewController id="oJs-rN-G1S" customClass="LoginVC" customModule="Melody" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="s46-5V-ca5"/>
+                        <viewControllerLayoutGuide type="bottom" id="vNO-oP-KpI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xhv-YJ-KVO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A8U-NF-3Du">
+                                <rect key="frame" x="-2" y="72" width="324" height="355"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="compte-bg" translatesAutoresizingMaskIntoConstraints="NO" id="MGB-86-e8q">
+                                        <rect key="frame" x="1" y="0.0" width="315" height="337"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SE CONNECTER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUo-DV-t5a">
+                                        <rect key="frame" x="28" y="15" width="260" height="35"/>
+                                        <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="28"/>
+                                        <color key="textColor" red="0.98039215690000003" green="0.50196078430000002" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hm7-Jb-66m">
+                                        <rect key="frame" x="30" y="102" width="260" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="E-mail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="260" translatesAutoresizingMaskIntoConstraints="NO" id="Onh-mW-dw1">
+                                        <rect key="frame" x="30" y="73" width="260" height="21"/>
+                                        <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mot de passe" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="260" translatesAutoresizingMaskIntoConstraints="NO" id="zLn-tg-t5k">
+                                        <rect key="frame" x="30" y="151" width="260" height="21"/>
+                                        <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="17"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rif-fP-3ff">
+                                        <rect key="frame" x="30" y="180" width="260" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="65o-WN-Df1">
+                                        <rect key="frame" x="180" y="235" width="115" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Button" image="compte-btn-valider">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="loginButtonPressed:" destination="oJs-rN-G1S" eventType="touchUpInside" id="L4K-qu-38O"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oi-9G-x6m">
+                                        <rect key="frame" x="21" y="235" width="115" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Button" image="compte-btn-retour">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="backAction:" destination="oJs-rN-G1S" eventType="touchUpInside" id="uYV-Kl-vPN"/>
+                                            <action selector="cancelAction:" destination="oJs-rN-G1S" eventType="touchUpInside" id="CBc-Du-sqj"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83921568629999999" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="i0j-Td-Cor">
+                        <barButtonItem key="leftBarButtonItem" title="Fermer" id="ckA-Fz-thc">
+                            <color key="tintColor" red="0.93150628310000005" green="0.93150628310000005" blue="0.93150628310000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="cancelAction:" destination="oJs-rN-G1S" id="aCu-Ir-ByQ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="emailTextFIeld" destination="hm7-Jb-66m" id="AKk-yf-DkP"/>
+                        <outlet property="passTextField" destination="Rif-fP-3ff" id="AUf-kJ-emN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9PE-Rf-KBC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2351" y="5912"/>
+        </scene>
+        <!--Compte-->
+        <scene sceneID="d2m-PQ-I6u">
+            <objects>
+                <viewController storyboardIdentifier="CompteVC" id="bCG-ml-LuM" customClass="CompteVC" customModule="Melody" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nzr-Tf-OuI"/>
+                        <viewControllerLayoutGuide type="bottom" id="Biu-fz-TVf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6i3-Ab-kRE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kh2-j9-b4u">
+                                <rect key="frame" x="-2" y="72" width="320" height="234"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="compte-bg" translatesAutoresizingMaskIntoConstraints="NO" id="5Yo-FO-vlE">
+                                        <rect key="frame" x="3" y="8" width="315" height="212"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXr-an-miU">
+                                        <rect key="frame" x="166" y="158" width="115" height="30"/>
+                                        <state key="normal" title="Button" image="abo-btn-compte-abo">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="aboAction:" destination="bCG-ml-LuM" eventType="touchUpInside" id="STc-Lx-co7"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1erEssaiGratuit" translatesAutoresizingMaskIntoConstraints="NO" id="fvu-5G-Hoh">
+                                        <rect key="frame" x="151" y="115" width="130" height="35"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abo-tab-1" translatesAutoresizingMaskIntoConstraints="NO" id="6hw-7h-3nN">
+                                        <rect key="frame" x="15" y="45" width="108" height="86"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abonnement iPhone / iPad" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="189" translatesAutoresizingMaskIntoConstraints="NO" id="ThU-ZS-kmP">
+                                        <rect key="frame" x="128" y="18" width="189" height="21"/>
+                                        <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="13"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Npk-Je-YiG">
+                                        <rect key="frame" x="21" y="158" width="115" height="30"/>
+                                        <state key="normal" title="Button" image="btn-compte-reset">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="restoreAction:" destination="bCG-ml-LuM" eventType="touchUpInside" id="YFB-cO-bt3"/>
+                                        </connections>
+                                    </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Accédez en illimité au direct et aux programmes à la demande (Variétés, Concerts...)." selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MSx-OC-dFk">
+                                        <rect key="frame" x="132" y="36" width="176" height="94"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="11"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vi0-jd-KCq">
+                                <rect key="frame" x="-2" y="295" width="320" height="265"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="compte-bg" translatesAutoresizingMaskIntoConstraints="NO" id="bIv-nt-3vg">
+                                        <rect key="frame" x="3" y="16" width="315" height="234"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vous êtes déjà abonné(e) ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="KJZ-uY-8gb">
+                                        <rect key="frame" x="13" y="193" width="292" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4te-yr-UuA">
+                                        <rect key="frame" x="104" y="210" width="112" height="26"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                        <state key="normal" title="Cliquez-ici">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="V3u-dZ-e92" kind="modal" identifier="loginView" id="91q-kb-12Q"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abo-multi-1" translatesAutoresizingMaskIntoConstraints="NO" id="ohw-Kk-YWf">
+                                        <rect key="frame" x="12" y="39" width="120" height="100"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abo-sep" translatesAutoresizingMaskIntoConstraints="NO" id="XtU-Gt-KlB">
+                                        <rect key="frame" x="14" y="187" width="283" height="2"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Abonnement multi-écrans" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lsP-u1-qLI">
+                                        <rect key="frame" x="128" y="18" width="176" height="37"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="13"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFs-ck-vjs">
+                                        <rect key="frame" x="132" y="44" width="176" height="130"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <string key="text">Accédez à Melody sur ordinateur, smartphone, tablette et Samsung Smart TV. Rendez-vous sur le site de Melody et abonnez-vous à l’une de nos offres.</string>
+                                        <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="11"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dj2-Es-ejV">
+                                <rect key="frame" x="0.0" y="152" width="320" height="251"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="compte-bg" translatesAutoresizingMaskIntoConstraints="NO" id="Kqc-j6-Ssv">
+                                        <rect key="frame" x="3" y="16" width="315" height="275"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MERCI D’ÊTRE ABONNÉ(E) À MELODY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="291" translatesAutoresizingMaskIntoConstraints="NO" id="7J2-4Y-wbL">
+                                        <rect key="frame" x="13" y="26" width="291" height="31"/>
+                                        <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="13"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0PO-f2-24e">
+                                        <rect key="frame" x="20" y="92" width="277" height="145"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <string key="text">Vous pouvez profiter pleinement des contenus de cette application. 
+
+Pour accéder à Melody sur votre téléviseur, abonnez-vous via un distributeur de télévision payante (CanalSat, Free...).</string>
+                                        <fontDescription key="fontDescription" name="TeXGyreAdventor-Regular" family="TeX Gyre Adventor" pointSize="13"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83921568629999999" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Compte" id="o9z-bO-2ny"/>
+                    <connections>
+                        <outlet property="viewAboMulti" destination="vi0-jd-KCq" id="CdH-3f-qvO"/>
+                        <outlet property="viewAboPhone" destination="kh2-j9-b4u" id="Xtz-de-8co"/>
+                        <outlet property="viewAboPromo" destination="Dj2-Es-ejV" id="8ql-DB-QXK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="03M-IL-gxF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="960" y="5917"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WMe-V6-9mg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="V3u-dZ-e92" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QtQ-BJ-xQR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.98039215690000003" green="0.50196078430000002" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="oJs-rN-G1S" kind="relationship" relationship="rootViewController" id="97r-0C-UJG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2xi-3w-A4f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1819" y="5912"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="uoz-ZN-dlR">
+            <objects>
+                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="EHq-au-fqY" sceneMemberID="viewController">
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bc6-84-M7C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1159" y="-2347"/>
+        </scene>
+        <!--TutoVC-->
+        <scene sceneID="Fl6-ww-qIp">
+            <objects>
+                <viewController storyboardIdentifier="tutorials" id="jrx-fg-jtm" customClass="TutoVC" customModule="Melody" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O1a-SX-Tjq"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sb9-BC-Xal"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WfK-VE-iUP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="l8I-Dq-lWF"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rch-zA-w9j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1093" y="-1488"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wYs-IY-K6x">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="mQV-Br-Kca" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kpg-pi-xp5">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jrx-fg-jtm" kind="relationship" relationship="rootViewController" id="ACD-Bn-Yg1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u05-f6-uRh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="543" y="-1488"/>
+        </scene>
+        <!--Page TutoVC-->
+        <scene sceneID="rhm-NU-yIn">
+            <objects>
+                <viewController storyboardIdentifier="pageTuto" id="YTG-xM-jw4" customClass="PageTutoVC" customModule="Melody" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Um-cK-Fzg"/>
+                        <viewControllerLayoutGuide type="bottom" id="gx5-O9-Wyd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GI1-DU-1J6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abo-bg" translatesAutoresizingMaskIntoConstraints="NO" id="303-cE-ozo">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhQ-oy-qGB">
+                                <rect key="frame" x="64" y="490" width="193" height="33"/>
+                                <fontDescription key="fontDescription" name="TeXGyreAdventor-Bold" family="TeX Gyre Adventor" pointSize="13"/>
+                                <state key="normal" title="&gt;&gt; Accédez à l’application &gt;&gt;">
+                                    <color key="titleColor" red="1" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToApplication:" destination="YTG-xM-jw4" eventType="touchUpInside" id="Gbg-BG-htr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="backgroundImage" destination="303-cE-ozo" id="sn7-tl-vnm"/>
+                        <outlet property="goApplicationButton" destination="qhQ-oy-qGB" id="xho-kP-4TF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v0l-f2-kYj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1687" y="-1160"/>
+        </scene>
+        <!--Slide Navigation Controller-->
+        <scene sceneID="g8s-Gq-v34">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="j3r-hk-zF2" customClass="SlideNavigationController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OfB-aT-wZK">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="1" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="f3L-jo-K3E" kind="relationship" relationship="rootViewController" id="XG9-Za-KqT"/>
+                        <segue destination="6Vl-Ea-5ST" kind="push" identifier="direct" id="9nK-xd-WH3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iXa-6x-dad" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="315" y="329"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name=" " width="30" height="31"/>
+        <image name="1erEssaiGratuit" width="485" height="130"/>
+        <image name="abo-bg" width="1106" height="606"/>
+        <image name="abo-btn-compte-abo" width="304" height="74"/>
+        <image name="abo-multi-1" width="274" height="218"/>
+        <image name="abo-sep" width="980" height="1"/>
+        <image name="abo-tab-1" width="268" height="234"/>
+        <image name="actualites-off" width="30" height="31"/>
+        <image name="btn-compte-reset" width="264" height="74"/>
+        <image name="btn_abonner-1" width="400" height="100"/>
+        <image name="btn_extrait-1" width="400" height="100"/>
+        <image name="btn_voir_video" width="400" height="100"/>
+        <image name="compte-bg" width="600" height="558"/>
+        <image name="compte-btn-retour" width="264" height="74"/>
+        <image name="compte-btn-valider" width="264" height="74"/>
+        <image name="compte-off" width="30" height="30"/>
+        <image name="direct-off" width="30" height="31"/>
+        <image name="grille-off" width="30" height="31"/>
+        <image name="replay-of" width="26" height="26"/>
+        <image name="sep-grilleTV" width="1" height="110"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
